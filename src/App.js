@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+const initialFriends = [
+  {
+    id: 118836,
+    name: "RSK",
+    image: "./../public/images/RSK.jpeg",
+    balance: -7,
+  },
+  {
+    id: 933372,
+    name: "Renu",
+    image: "./../public/images/Renu.jpg",
+    balance: 20,
+  },
+  {
+    id: 499476,
+    name: "Chikkie",
+    image: "./../public/images/Chikkie.jpg",
+    balance: 0,
+  },
+];
